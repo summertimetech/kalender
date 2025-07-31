@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark {
+  background: #222;
+  color: #eee;
+}
+.controls {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.controls input,
+.controls button {
+  margin: 0.2rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+}
+#calendarWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.month {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+body.dark .month {
+  background: #333;
+  border-color: #666;
+}
+.month h3 {
+  text-align: center;
+  margin-top: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  width: 14.2%;
+  text-align: center;
+  padding: 4px;
+}
+th {
+  background: #ddd;
+}
+body.dark th {
+  background: #444;
+}
+.weekend {
+  color: red;
+}
+.holiday {
+  background-color: gold;
+}

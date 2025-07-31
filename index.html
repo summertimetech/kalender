@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="controls">
+    <input type="number" id="yearInput" min="1" max="9999" />
+    <button onclick="showYear()">Toon jaar</button>
+    <button onclick="prevYear()">← Vorig jaar</button>
+    <button onclick="nextYear()">Volgend jaar →</button>
+    <button onclick="toggleDarkMode()">🌗</button>
+    <button onclick="exportPDF()">📄 Exporteer naar PDF</button>
+  </div>
+  <div id="calendarWrapper"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
