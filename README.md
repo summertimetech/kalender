@@ -2,7 +2,7 @@
 
 Rather impressive!  
 100% AI ChatGPT generated source code with zero errors and zero human edits in the code.  
-Made within 15 minutes which could take a human many days, maybe weeks.  
+Made within 15 minutes which could take a human novice days, maybe weeks.  
 AI only given general instructions without any directive about how to determine weeknumbers, formal holidays, weekends etc.  
 
 ## Functions  
