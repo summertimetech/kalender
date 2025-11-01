@@ -20,4 +20,4 @@ AI only given general instructions without any directive about how to determine 
 . ChatGPT Pro - code JavaScript  
 . KnowledgeBase ISO norms - auto handpicked by AI  
 . Developement Summer 2025 by SummertimeTech  
-  
+. License GPL lookup http://www.gnu.org/licenses/gpl.htm  
